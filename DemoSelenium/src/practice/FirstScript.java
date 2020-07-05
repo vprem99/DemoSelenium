@@ -1,10 +1,9 @@
-package day1;
+package practice;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FirstScript {
-
 	public static void main(String[] args) {
 
 		// WebDriver is Interface & FirefoxDriver , ChromeDriver, OperaDriver
@@ -17,11 +16,7 @@ public class FirstScript {
 		// visible & rest every functions will be hidden
 
 		driver.get("http://selenium.dev"); // Opening URL
-
 		System.out.println(driver.getTitle());  // Pronting Title
-
 		driver.quit(); // Closing Browser
-
 	}
-
 }
