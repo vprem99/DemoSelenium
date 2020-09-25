@@ -28,7 +28,6 @@ public class FirstTestExample {
 
 		driver = new ChromeDriver();
 		// Parent p=new Child()
-
 	}
 
 	@AfterTest // Post-Condition
