@@ -22,6 +22,7 @@ public class ColourTest {
 		System.out.println(backColor);
 
 		String hexBackColor = Color.fromString(backColor).asHex();
+		
 
 		System.out.println(hexBackColor);
 
